@@ -1,0 +1,100 @@
+
+.navbar {
+    background-color: rgb(11, 139, 139);
+    }
+    .button-toggler{
+        background-color: rgb(11, 139, 139);
+        border:3px solid rgb(32, 32, 32); 
+        border-radius:10px; 
+        padding:10px;
+        height:50px; 
+        width: 60px;
+    }
+    .button-toggler:hover{
+        background-color:  rgba(129, 218, 132, 0.3) ;
+        border:3px solid rgb(250, 250, 250); 
+      
+    }
+    .offcanvas-header{
+        background-color: rgb(26, 78, 60);
+        color: rgb(252, 251, 251);
+    }
+    .offcanvas-header{
+        font-family: serif;
+    }
+    .offcanvas-body{
+        background-color: rgb(24, 165, 125);
+      
+    }
+    
+    .nav-item a {
+        color:rgb(235, 235, 235) ;
+        padding: 20px;
+      }
+    
+    .nav-item a:hover {
+        color:rgb(24, 165, 125) ;
+        background-color: rgb(0, 0, 0);
+        padding: 20px;
+      }
+    
+    .PIClogo{
+        height: 70px;
+        width: 150px;
+    border-radius: 10px;
+    }
+    .flip-card {
+        background-color: transparent;
+        margin: 150px 500px 200px 500px;
+        width: 300px;
+        height: 200px;
+        border: 2px solid #1c3d24;
+        perspective: 1000px;  /* Remove this if you don't want the 3D effect */
+      }
+      
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+      }
+      
+   
+      .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+      }
+      
+    
+      .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+      }
+      
+    
+    
+      
+   
+      .flip-card-back {
+        background-color: rgb(255, 165, 246);
+        color: rgb(67, 34, 128);
+        transform: rotateY(180deg);
+        font-weight: 800;
+        font-size: 16px;
+        font-family: Georgia, serif;
+      }
+      @media only screen and (max-width: 800px) and (min-width: 400px) {
+        .flip-card {
+          margin: 150px 300px 100px 300px;
+        }
+      }
+
+      @media screen and (max-width: 400px) {
+        .flip-card {
+          margin: 150px 20px 100px 20px;
+        }
+
+      }
